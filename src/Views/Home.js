@@ -1,11 +1,30 @@
 import React from "react";
 import '../Assets/CSS/Home.css';
-
+import $ from 'jquery';
 function Home() {
 
-    return (
+    setTimeout(function () {
+        $('.inner div').addClass('done');
 
+        setTimeout(function () {
+            $('.inner div').addClass('page');
+
+            setTimeout(function () {
+                $('.pageLoad').addClass('off');
+
+                $('body, html').addClass('on');
+            }, 500)
+        }, 500)
+    }, 1500)
+
+
+
+        setTimeout(function () {
+            $("#main").removeClass("is-loading");
+        }, 1800);
+    return (
         <div>
+
             <div class="pageLoad">
                 <div class="inner">
                     <div></div>
@@ -15,8 +34,12 @@ function Home() {
                 </div>
             </div>
 
-            <h1>Creotip.io - Alex Safayan Fork </h1>
-        </div>
+            <div id="main" class="is-loading">
+                <h1>
+                    WELCOME
+                </h1>
+            </div>
+]        </div>
     )
 }
 
