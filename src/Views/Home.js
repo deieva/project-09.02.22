@@ -3,6 +3,7 @@ import '../Assets/CSS/Home.css';
 import $ from 'jquery';
 function Home() {
 
+    // page loading part
     setTimeout(function () {
         $('.inner div').addClass('done');
 
@@ -18,7 +19,7 @@ function Home() {
     }, 1500)
 
 
-
+// welcome part
         setTimeout(function () {
             $("#main").removeClass("is-loading");
         }, 1800);
