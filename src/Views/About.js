@@ -6,7 +6,11 @@ function About() {
 
     return (
         <div>
-            <DatePicker selected={selectedDate } onChange={date => setSelectedDate(date) } />
+            <DatePicker 
+            selected={selectedDate } 
+            onChange={date => setSelectedDate(date) } 
+            dateFormat='yyyy.MM.dd'
+            />
         </div>
     )
 }
