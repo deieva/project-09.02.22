@@ -10,6 +10,7 @@ function About() {
             selected={selectedDate } 
             onChange={date => setSelectedDate(date) } 
             dateFormat='dd.MM.yyyy'
+            minDate={new Date()}
             />
         </div>
     )
