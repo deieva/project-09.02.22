@@ -10,8 +10,10 @@ function About() {
             selected={selectedDate } 
             onChange={date => setSelectedDate(date) } 
             dateFormat='dd.MM.yyyy'
-            minDate={new Date()}
-            maxDate={new Date()}
+            // minDate={new Date()}
+            // maxDate={new Date()}
+            filterDate={ date => date.getDay() !== 6 && date.getDay() !== 0} 
+            // filterDate te izslēdz sestdienas un svētdienas
             />
         </div>
     )
