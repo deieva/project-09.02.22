@@ -11,6 +11,7 @@ function About() {
             onChange={date => setSelectedDate(date) } 
             dateFormat='dd.MM.yyyy'
             minDate={new Date()}
+            maxDate={new Date()}
             />
         </div>
     )
