@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 
 function About() {
     const [selectedDate, setSelectedDate ] = useState(null)
@@ -14,6 +15,7 @@ function About() {
             // maxDate={new Date()}
             filterDate={ date => date.getDay() !== 6 && date.getDay() !== 0} 
             // filterDate te izslēdz sestdienas un svētdienas
+            isClearable
             />
         </div>
     )
