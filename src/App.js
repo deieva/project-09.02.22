@@ -5,6 +5,7 @@ import Home from './Views/Home';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Views/About';
+import 'react-datepicker/dist/react-datepicker.css';
 
 function App() {
   return (
