@@ -16,6 +16,11 @@ function About() {
             filterDate={ date => date.getDay() !== 6 && date.getDay() !== 0} 
             // filterDate te izslēdz sestdienas un svētdienas
             isClearable
+
+            showYearDropdown
+            scrollableMonthYearDropdown
+
+            
             />
         </div>
     )
