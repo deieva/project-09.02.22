@@ -30,7 +30,12 @@ function About() {
                 // timeInputLabel="Time:"
                 // dateFormat="MM/dd/yyyy h:mm aa"
                 // showTimeInput
-
+                // monthsShown={2}  
+                // openToDate={new Date("1993/09/28")}
+                withPortal
+                // showQuarterYearPicker  //parāda tikai gada kvartālus
+                todayButton="Šodien"
+                calendarStartDay={1} 
             />
         </div>
     )
