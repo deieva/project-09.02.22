@@ -167,8 +167,9 @@ body {
 }
 
 #main {
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.66) 100%, transparent),
-		url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/336999/shinokubo_test.jpg);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 100%, transparent),
+		/* url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/336999/shinokubo_test.jpg); */
+		url('../IMAGES/mountains.jpg');
 	background-size: cover, cover;
 	background-position: center, center;
 	height: 100vh;
