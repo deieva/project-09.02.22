@@ -5,6 +5,7 @@ import '../Assets/CSS/About.css';
 
 function About() {
     const [selectedDate, setSelectedDate ] = useState(null)
+    
 
     return (
         <div className="date-picker-container">
@@ -22,6 +23,9 @@ function About() {
             scrollableMonthYearDropdown
 
             placeholderText="Pick a date!"
+            closeOnScroll={(e) => e.target === document}  //calender closes by starting to scroll the page
+            showTimeSelect
+            showWeekNumbers
             />
         </div>
     )
