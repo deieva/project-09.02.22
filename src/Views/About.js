@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import '../Assets/CSS/About.css';
 
 function About() {
     const [selectedDate, setSelectedDate ] = useState(null)
 
     return (
-        <div>
+        <div className="date-picker-container">
             <DatePicker 
             selected={selectedDate } 
             onChange={date => setSelectedDate(date) } 
