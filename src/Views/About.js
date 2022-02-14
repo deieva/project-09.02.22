@@ -21,7 +21,7 @@ function About() {
             showYearDropdown
             scrollableMonthYearDropdown
 
-            
+            placeholderText="Pick a date!"
             />
         </div>
     )
