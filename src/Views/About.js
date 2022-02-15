@@ -8,35 +8,37 @@ function About() {
 
 
     return (
-        <div className="date-picker-container">
-            <DatePicker
-                selected={selectedDate}
-                onChange={date => setSelectedDate(date)}
-                dateFormat='dd.MM.yyyy'
-                // minDate={new Date()}
-                // maxDate={new Date()}
-                filterDate={date => date.getDay() !== 6 && date.getDay() !== 0}
-                // filterDate te izslēdz sestdienas un svētdienas
-                isClearable
+        <div>
+            <div className="date-picker-container">
+                <DatePicker
+                    selected={selectedDate}
+                    onChange={date => setSelectedDate(date)}
+                    dateFormat='dd.MM.yyyy'
+                    // minDate={new Date()}
+                    // maxDate={new Date()}
+                    filterDate={date => date.getDay() !== 6 && date.getDay() !== 0}
+                    // filterDate te izslēdz sestdienas un svētdienas
+                    isClearable
 
-                showYearDropdown
-                scrollableMonthYearDropdown
+                    showYearDropdown
+                    scrollableMonthYearDropdown
 
-                placeholderText="Pick a date!"
-                closeOnScroll={(e) => e.target === document}  //calender closes by starting to scroll the page
-                showTimeSelect
-                // inline  //shows the calender
+                    placeholderText="Pick a date!"
+                    closeOnScroll={(e) => e.target === document}  //calender closes by starting to scroll the page
+                    showTimeSelect
+                    // inline  //shows the calender
 
-                // timeInputLabel="Time:"
-                // dateFormat="MM/dd/yyyy h:mm aa"
-                // showTimeInput
-                // monthsShown={2}  
-                // openToDate={new Date("1993/09/28")}
-                withPortal
-                // showQuarterYearPicker  //parāda tikai gada kvartālus
-                todayButton="Šodien"
-                calendarStartDay={1} 
-            />
+                    // timeInputLabel="Time:"
+                    // dateFormat="MM/dd/yyyy h:mm aa"
+                    // showTimeInput
+                    // monthsShown={2}  
+                    // openToDate={new Date("1993/09/28")}
+                    withPortal
+                    // showQuarterYearPicker  //parāda tikai gada kvartālus
+                    todayButton="Šodien"
+                    calendarStartDay={1}
+                />
+            </div>
         </div>
     )
 }
