@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import '../Assets/CSS/About.css';
-// import { sortable } from 'react-sortable';
 
 function About() {
     const [selectedDate, setSelectedDate] = useState(new Date())  //vai arī iekavās new Date vietā - null, ja negrib datumu jau defaultā
