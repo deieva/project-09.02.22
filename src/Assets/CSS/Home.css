@@ -216,7 +216,7 @@ h1:before {
 
 h1:after {
 	bottom: 0;
-	/* right: 0; */
+	right: 0;
 }
 
 .is-loading h1:before,
