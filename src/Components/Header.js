@@ -6,7 +6,6 @@ function Header() {
 // Header Sticky
 function stickyFunction() {
 	var header = document.getElementById("site-header");
-	var sticky = header.offsetHeight;
 	if (window.pageYOffset > 0) {
 		header.classList.add("fixed");
 	} else {
@@ -29,7 +28,6 @@ window.onscroll = function() {
 
 // LeftNav onscroll Highlight
 function onScrollHighlighted() {
-   var leftNavHeight = 0;
    var scrollHeight = $(document).height();
    var scrollPosition = $(window).height() + $(window).scrollTop();
    var contentnavArray = [] ;
@@ -76,7 +74,6 @@ $(document).on('click', '.leftnav-listing li > a', function(){
  
 
 $(document).ready(function(){
-	var w_width = $( window ).width();
 	
 	/*Menu toggle Button*/
 	$('.nav-button').click(function() {
@@ -91,7 +88,7 @@ $(document).ready(function(){
 	/*Navigation Menu */
 
  	/*Multi level*/
-    $("ul.top_nav li span.down-arrow").on("click",function(e){  
+    $("ul.top_nav li span.down-arrow").on("click",function(){  
 		if($(this).parents(".has-submenu").hasClass("submenu-active") && (!($(this).parent().hasClass("submenu-active")) ) ){ 
 			$(this).parent().siblings().removeClass("submenu-active");
 			$(this).parent().addClass("submenu-active");
@@ -134,29 +131,6 @@ $(window).resize( function(){
 
 });
 
-// Smooth Sidebar
-// function sticky_relocate() {
-//     var window_top = $(window).scrollTop();
-//     var footer_top = $(".site-footer").offset().top;
-//     var div_top = $('.left_anchor').offset().top;
-//     var div_height = $(".leftnav-listing").height();
-    
-//     var padding = 20;  // tweak here or get from margins etc
-    
-//     if (window_top + div_height > footer_top - padding)
-//         $('.leftnav-listing').css({top: (window_top + div_height - footer_top + padding) * -1})
-//     else if (window_top > div_top) {
-//         $('.leftnav-listing').addClass('leftnav-fixed');
-//         $('.leftnav-listing').css({top: 0})
-//     } else {
-//         $('.leftnav-listing').removeClass('leftnav-fixed');
-//     }
-// }
-
-// $(function () {
-//     $(window).scroll(sticky_relocate);
-//     sticky_relocate();
-// });
     return (
         <div>
 
@@ -206,13 +180,13 @@ $(window).resize( function(){
                             </ul>
                         </li>
                         <li>
-                            <a href="">Portfolio</a>
+                            <a href="/portfolio">Portfolio</a>
                         </li>
                         <li>
-                            <a href="">About</a>
+                            <a href="/about">About</a>
                         </li>
                         <li>
-                            <a href="">Contact</a>
+                            <a href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
