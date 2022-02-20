@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div>
             <div>
-                <div class="footer">
+                <div className="footer">
                     <section>
                         <h3>XRIGADE</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
@@ -24,12 +24,12 @@ function Footer() {
                     </section>
                     <section>
                         <h3>ANY QUESTIONS?</h3>
-                        <a href="emailto:support@websitename.com"><span><i class="fa fa-envelope"></i></span><span>support@websitename.com</span></a>
-                        <a href="tel:xxxxxxxxx"><span><i class="fa fa-phone"></i></span><span>(+x)-xxx-xxxx-xxxxx</span></a>
+                        <a href="emailto:support@websitename.com"><span><i className="fa fa-envelope"></i></span><span>support@websitename.com</span></a>
+                        <a href="tel:xxxxxxxxx"><span><i className="fa fa-phone"></i></span><span>(+x)-xxx-xxxx-xxxxx</span></a>
                     </section>
                 </div>
             </div>
-            <div class="sub-footer">
+            <div className="sub-footer">
                 Copyright ©2022 All rights reserved | Next Generation IT Solutions
             </div>
 
