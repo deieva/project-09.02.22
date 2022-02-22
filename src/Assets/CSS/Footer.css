@@ -36,11 +36,11 @@ html {
 }
 
 /*DEFAULT*/
-body {
+/* body {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   overflow-x: hidden !important;
-}
+} */
 
 .title {
   font-family: "Merriweather", serif;
@@ -177,7 +177,8 @@ em {
 }
 
 .footer section a:hover {
-  color: var(--white);
+  /* color: var(--white); */
+  color: #f8f9fa;
 }
 
 .footer section:nth-child(2) a:before,
