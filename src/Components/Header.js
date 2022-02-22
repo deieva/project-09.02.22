@@ -134,7 +134,7 @@ $(window).resize( function(){
     return (
         <div>
 
-<header id="site-header" className="header">
+<div id="site-header" className="header">
         <div className="container">
             <nav>
                 <div className="logo" tabindex="1">Logo</div>
@@ -192,7 +192,7 @@ $(window).resize( function(){
                 </div>
             </nav>
         </div>
-    </header>
+    </div>
         </div>
     )
 }
