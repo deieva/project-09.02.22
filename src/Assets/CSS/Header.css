@@ -11,22 +11,22 @@
   font-family: "Alice", serif;
 } */
 .container {
-  width: 90%;
+  /* width: 90%; */
   max-width: 1170px;
   margin: 0 auto;
 }
 
 /*Nav*/
 
-header {
-  position: absolute;
+.header {
+  position: fixed;
   top: 0;
   width: 100%;
-  box-shadow: 0 0 10px #00000036;
+  /* box-shadow: 0 0 10px #00000036; */
   z-index: 9;
-  background: #ffffff05;
+  /* background: #ffffff05; */
 }
-header.fixed {
+.header.fixed {
   position: fixed;
   top: 0;
 }
