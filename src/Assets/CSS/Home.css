@@ -146,9 +146,9 @@ h1 {
 body,
 html {
   margin: 0px;
-  background-color: white;
   overflow: hidden;
   font-family: "Open Sans";
+  color: white;
 }
 
 body,
@@ -161,10 +161,12 @@ html.on {
 
 
 
-body {
+
+
+/* body {
 	background: #445;
 	color: #fff;
-}
+} */
 
 #main {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 100%, transparent),
@@ -222,3 +224,4 @@ h1:after {
 .is-loading h1:after {
 	width: 0;
 }
+
