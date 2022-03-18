@@ -26,8 +26,8 @@ function Home() {
     return (
         <div>
 
-            <div class="pageLoad">
-                <div class="inner">
+            <div className="pageLoad">
+                <div className="inner">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -35,12 +35,12 @@ function Home() {
                 </div>
             </div>
 
-            <div id="main" class="is-loading">
+            <div id="main" className="is-loading">
                 <h1>
                     WELCOME
                 </h1>
             </div>
-]        </div>
+        </div>
     )
 }
 
