@@ -134,7 +134,7 @@ function Header() {
     return (
         <div>
 
-            <div id="site-header" className="header">
+            <div id="site-header bg-dark" className="header">
                 <div className="container">
                     <nav>
                         <div className="logo" tabindex="1">Logo</div>

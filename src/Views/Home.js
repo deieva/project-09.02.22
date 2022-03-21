@@ -14,8 +14,8 @@ function Home() {
                 $('.pageLoad').addClass('off');
 
                 $('body, html').addClass('on');
-            }, 200)
-        }, 200)
+            }, 100)
+        }, 100)
     }, 1500)
 
 
