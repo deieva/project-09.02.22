@@ -187,3 +187,7 @@ header {
 	color: var(--main-text);
 	box-shadow: 0rem 0rem 0.3rem var(--main-border-shadow);
 }
+
+.active {
+	color: orange!important;
+}

@@ -1,6 +1,20 @@
 import React from "react";
 import '../Assets/CSS/Header.css';
+import $ from 'jquery';
+
 function Header() {
+    $(function(){
+        // this will get the full URL at the address bar
+        var url = window.location.href; 
+    
+        // passes on every "a" tag 
+        $("#nav-tools a").each(function() {
+                // checks if its the same on the address bar
+            if(url == (this.href)) { 
+                $(this).closest("a").addClass("active");
+            }
+        });
+    });
 
     return (
         <div>
@@ -29,9 +43,9 @@ function Header() {
                         </div> */}
                         <div class="nav-right">
                             <div id="nav-tools">
-                                <a href="/">Language</a>
-                                <a href="/">Log in</a>
-                                <a href="/">Cart</a>
+                                <a href="/language">Language</a>
+                                <a href="/login">Log in</a>
+                                <a href="/cart">Cart</a>
                             </div>
                         </div>
                     </div>
