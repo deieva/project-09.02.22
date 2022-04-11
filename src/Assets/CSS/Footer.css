@@ -194,3 +194,13 @@ em {
     display: inline-block;
   }
 }
+
+
+.footer-section {
+  font-size: 20px!important;
+}
+
+.footer-section:hover {
+  text-decoration:overline!important;
+  
+}
