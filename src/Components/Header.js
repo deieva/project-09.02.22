@@ -43,7 +43,7 @@ function Header() {
                         </div> */}
                         <div class="nav-right">
                             <div id="nav-tools">
-                                <a href="/language">Language</a>
+                                <a href="/services">Services</a>
                                 <a href="/login">Log in</a>
                                 <a href="/cart">Cart</a>
                             </div>
