@@ -36,6 +36,7 @@ section {
     position: relative;
     text-transform: capitalize;
     z-index: 1;
+    color: black;
   }
   
   .site-heading h4::before {
