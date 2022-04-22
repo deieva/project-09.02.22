@@ -192,7 +192,7 @@ function Login() {
                                             </div>
                                         </div>
                                         <div className="simform__actions">
-                                            <input className="sumbit" name="commit" type="sumbit" value="Log In" />
+                                            <button className="sumbit" name="commit" type="sumbit" value="Log In">Log in</button>
                                             <span className="simform__actions-sidetext"><a className="special" role="link" href="#">Forgot your password?<br/>Click here</a></span>
                                         </div>
                                     </form>
