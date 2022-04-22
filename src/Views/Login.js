@@ -145,7 +145,7 @@ function Login() {
                                             </div>
                                         </div>
                                         <div className="simform__actions">
-                                            <input className="sumbit" name="commit" type="sumbit" value="Create Account" />
+                                            <button className="sumbit" name="commit" type="sumbit" value="Create Account"> Create Account</button>
                                             <span className="simform__actions-sidetext">By creating an account you agree to our <a className="special" href="#" target="_blank" role="link">Terms & Privacy</a></span>
                                         </div>
                                     </form>
