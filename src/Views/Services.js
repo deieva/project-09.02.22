@@ -4,7 +4,7 @@ function Services() {
 
     return (
         <div>
-            <section className="we-offer-area text-center bg-gray">
+            <section className="we-offer-area text-center bg-gray services-section">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
