@@ -27,7 +27,7 @@
   }
   
   .site-heading h2 span {
-    color: #00a01d;
+    color: orange;
   }
   
   .site-heading h4 {
@@ -40,7 +40,7 @@
   }
   
   .site-heading h4::before {
-    background: #00a01d none repeat scroll 0 0;
+    background: orange none repeat scroll 0 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -70,13 +70,13 @@
   }
   
   .we-offer-area .our-offer-carousel .owl-dots .owl-dot.active span {
-    background: #00a01d none repeat scroll 0 0;
-    border-color: #00a01d;
+    background: orange none repeat scroll 0 0;
+    border-color: orange;
   }
   
   .we-offer-area .item {
     background: #ffffff none repeat scroll 0 0;
-    border-left: 2px solid #00a01d;
+    border-left: 2px solid orange;
     -moz-box-shadow: 0 0 10px #cccccc;
     -webkit-box-shadow: 0 0 10px #cccccc;
     -o-box-shadow: 0 0 10px #cccccc;
@@ -94,7 +94,7 @@
   }
   
   .we-offer-area.text-center .item i {
-    background: #00a01d none repeat scroll 0 0;
+    background: orange none repeat scroll 0 0;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -115,7 +115,7 @@
   }
   
   .we-offer-area.text-center .item i::after {
-    border: 2px solid #00a01d;
+    border: 2px solid orange;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -166,7 +166,7 @@
   }
   
   .we-offer-area .item i {
-    color: #00a01d;
+    color: orange;
     display: inline-block;
     font-size: 60px;
     margin-bottom: 20px;
@@ -192,7 +192,7 @@
   }
   
   .we-offer-area .item::after {
-    background: #00a01d none repeat scroll 0 0;
+    background: orange none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: -100%;
@@ -223,7 +223,7 @@
   
   .we-offer-area.text-center .item:hover i {
     background-color: #ffffff !important;
-    color: #00a01d !important;
+    color: orange !important;
   }
   
   .we-offer-area.text-left .item i {
