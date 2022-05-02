@@ -1,8 +1,9 @@
 import React from 'react';
 import '../Assets/CSS/Cart.css';
 import gsap from 'gsap';
-import Flip from 'flip';
-import CustomWiggle from 'gsap';
+import Flip from 'gsap/Flip';
+import CustomWiggle from 'gsap/CustomWiggle';
+
 function Cart() {
     gsap.registerPlugin(Flip, CustomWiggle);
 
