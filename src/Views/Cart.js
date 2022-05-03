@@ -24,7 +24,7 @@ const setInCartClass = (item, inCart) =>
 const setActiveItemClass = (item, isActive) =>
   item.parentNode.classList.toggle("active", isActive);
 
-const updateCart = (item) => {
+const updateCart = (_item) => {
   const hasItems = cartItems.children.length > 0;
 
   cartCount.innerText = hasItems ? cartItems.children.length : null;
