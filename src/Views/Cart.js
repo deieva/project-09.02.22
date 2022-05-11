@@ -5,7 +5,8 @@ function Cart() {
 
   return (
     <div>
-     
+      <div id="root">
+      </div>
     </div>
   )
 }
