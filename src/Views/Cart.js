@@ -13,7 +13,7 @@ function Cart() {
       $("#div2").show();
     });
   });
-  
+
   return (
     <div>
 
