@@ -136,11 +136,11 @@ em {
   width: 100%;
   display: flex;
   align-items: top;
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 
 .footer section {
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   width: 100%;
   vertical-align: top;
 }
@@ -171,7 +171,7 @@ em {
 }
 
 .footer section a span {
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .sub-footer {
@@ -186,7 +186,7 @@ em {
     display: block;
   }
   .footer section {
-    padding: 1rem 1rem;
+    padding: 5px;
   }
   .footer section:nth-child(2),
   .footer section:nth-child(3) {
@@ -197,7 +197,7 @@ em {
 
 
 .footer-section {
-  font-size: 20px!important;
+  font-size: 24px!important;
   text-align: left!important;
 }
 
